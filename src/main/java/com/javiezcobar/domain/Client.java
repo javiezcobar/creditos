@@ -77,15 +77,12 @@ public class Client {
     public void setDate(LocalDate date) {
         this.date = date;
     }
-
     public void setAddress(Address address) {
         this.address = address;
     }
-
     public void setLoans(Set<Loan> loans) {
         this.loans = loans;
     }
-
     @Override
     public String toString() {
         return "Cliente {" +

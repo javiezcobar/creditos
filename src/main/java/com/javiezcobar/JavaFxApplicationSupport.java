@@ -33,7 +33,7 @@ public class JavaFxApplicationSupport extends Application {
     public void start(Stage primaryStage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(KillaApplication.class.getResource("/fxml/main.fxml"));
         Scene scene = new Scene(fxmlLoader.load(),600,400);
-        primaryStage.setTitle("LA VENTANA PORFIN");
+        primaryStage.setTitle("App for loan");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
